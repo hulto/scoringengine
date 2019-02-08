@@ -29,7 +29,7 @@ def connect_and_execute(host, port, timeout, username, password, command):
             tn.read_until(b"Password: ")
             tn.write(password.encode('ascii') + b"\n")
 
-        tn.write(b"ps\n")
+        tn.write(b"{0}\n".format(command))
         tn.write(b"exit\n")
 
         return(tn.read_all().decode('ascii'))

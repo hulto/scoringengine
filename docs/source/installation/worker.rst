@@ -115,14 +115,14 @@ Install dependencies for SMTP/SMTPS check
   chmod a+x /usr/bin/smtps_check
 
 Install dependencies for NFS check
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ::
 
   apt-get install -y libnfs-dev
   source /home/engine/scoring_engine/env/bin/activate && pip install -I "libnfs==1.0.post4"
 
-Install dependencies for telnet check
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Install dependencies for Telnet check
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ::
 
   source /home/engine/scoring_engine/env/bin/activate && pip install -I "telnetlib3==1.0.1"

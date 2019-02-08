@@ -1,8 +1,8 @@
 TELNET
 ^^^^^^
-Logs into a system using telnet with an account/password, and executes command(s)
+Logs into a system using Telnet with an account/password, and executes command(s)
 
-.. note:: Each command will be executed independently of each other in a separate ssh connection.
+.. note:: Each command will be executed independently of each other in a separate telnet connection.
 
 `Uses Accounts`
 
