@@ -121,3 +121,9 @@ Install dependencies for NFS check
   apt-get install -y libnfs-dev
   source /home/engine/scoring_engine/env/bin/activate && pip install -I "libnfs==1.0.post4"
 
+Install dependencies for telnet check
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+::
+
+  source /home/engine/scoring_engine/env/bin/activate && pip install -I "telnetlib3==1.0.1"
+
